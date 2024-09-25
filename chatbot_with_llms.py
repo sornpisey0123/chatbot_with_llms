@@ -1,7 +1,7 @@
 #writefile app.py # No need this line if you are using local machine
-import streamlit as st # type: ignore
-from groq import Groq
-import random
+import streamlit as st # type: ignore this is used for build the web interaction 
+from groq import Groq  # for Groq API
+import random #Provide the random  number 
 
 from langchain.chains import ConversationChain, LLMChain
 from langchain_core.prompts import (
